@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def line():
     print('----------------------------------\n')
 
-'''
+
 time_list = []
 niter_list = []
 N = range(2, 18)
@@ -48,7 +48,7 @@ plt.figure(2)
 plt.plot(N, niter_list, color='r')
 plt.title("nombre d'itératons en fonction de N")
 plt.show()
-'''
+
 # --------------------------------------------------------------------------------
 
 time_list2 = []
@@ -83,11 +83,11 @@ for n in N2:
     print('temps de calcul = ', calc_time2, ' s')
     line()
 
-plt.figure(1)
+plt.figure(3)
 plt.plot(N2, time_list2)
 plt.title('temps de calcul en fonction de N (avec changement de variable)')
 plt.xlabel('')
-plt.figure(2)
+plt.figure(4)
 plt.plot(N2, niter_list2, color='r')
 plt.title("nombre d'itératons en fonction de N (avec changement de variable")
 plt.show()
